@@ -1,0 +1,32 @@
+body{
+    background-color: #CFD9D9;
+}
+
+header{
+    background-color: #312A2A ;
+    color: #A95E57;
+}
+
+
+header nav a{
+    color: #A95E57 !important;
+}
+
+
+
+main p{
+    color: #312A2A;
+}
+
+h2{
+    color: #312A2A;
+}
+
+h3{
+    color: #312A2A;
+}
+
+footer{
+    background-color: #312A2A;
+}
+
