@@ -12,7 +12,9 @@ header nav a{
     color: #A95E57 !important;
 }
 
-
+header nav a:hover{
+    color: #CFD9D9 !important;
+}
 
 main p{
     color: #312A2A;
@@ -44,4 +46,16 @@ h1,h2,h3{
 
 .italic{
     font-style: italic; 
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer li a{
+    color: white;
+}
+
+.footer li a:hover{
+    color: #CFD9D9;
 }
