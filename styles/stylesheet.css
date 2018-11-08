@@ -30,3 +30,18 @@ footer{
     background-color: #312A2A;
 }
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic; 
+}
