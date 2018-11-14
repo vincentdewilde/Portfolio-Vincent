@@ -3,13 +3,13 @@ body{
 }
 
 header{
-    background-color: #312A2A ;
-    color: #A95E57;
+    background-color: #373640 ;
+    color: #b6f7c1;
 }
 
 
 header nav a{
-    color: #A95E57 !important;
+    color: #b6f7c1 !important;
 }
 
 header nav a:hover{
@@ -38,14 +38,6 @@ footer{
 
 h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.italic{
-    font-style: italic; 
 }
 
 .footer li{
