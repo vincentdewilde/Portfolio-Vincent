@@ -1,109 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/stylesheet.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/7-WN/awsm.css/110794d6/dist/awsm.min.css"
-    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
       rel="stylesheet"
     />
     <title>Vincent Dewilde</title>
   </head>
-
   <body>
-    <header>
-      <h1>Vincent Dewilde</h1>
+    <header class="header">
+      <a href="./home.html" class="home">Vincent Dewilde</a>
       <nav>
-        <ul class="header">
-            <li><a href="#wie">Wie ben ik?</a></li>
-            <li> <a href="#wat">Wat doe ik?</a></li>
-            <li><a href="#motivatie">Motivatie en geschiedenis</a></li>
-        </ul> 
+        <ul>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./projecten.html">Projecten</a></li>
+          <li><a href="./bio.html">Bio</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="heroimg">
         <h2>Welkom!</h2>
-          <video src="./media/pika.mp4" controls>
-          Uw browser heeft geen HMTL5
-          </video>
+        <a href="#video">Wie ben ik?</a>
       </section>
-      <section>
-        <h2 id="wie">Wie ben ik?</h2>
-        <p>
-          Ik ben een leerling van de <b>Se-n-Se</b> opleiding
-          Webontwikkeling en Netwerkbeheer in Antwerpen.
-        </p>
-        <p>Ik heb 1 broer. En woon al 16 jaar in hetzelfde huis.</p>
-      </section>
-      <section>
-        <h2 id="wat">Wat doe ik?</h2>
-        <p>
-          Tijdens mijn vrije tijd ben ik vooral bezig met sporten en computers.
-        </p>
-        <p>Op de computer speel ik vaak games en uiteraard programmeer ik..</p>
-        <p>
-          Ook ben ik bezig met sport. Ik geef elke dinsdagavond atletieklessen
-          te Wilrijk. Naast deze lessen train ik vooral in de fitness.
-        </p>
-      </section>
-      <section>
-        <h2 id="motivatie">Motivatie en geschiedenis</h2>
-        <h3>Motivatie</h3>
-        <p>
-          Ik heb voor <b>ICT</b> gekozen omdat ik hier mee
-          ben opgegroeid. Van kleins af aan kreeg ik kapotte computers om aan te
-          prutsen. Zo is de interesse steeds gegroeid.
-        </p>
-        <h3>Geschiedenis</h3>
-        <p>
-          Van opleiding in het middelbaar heb ik gestudeerd voor
-          <i>LO & Sport</i> te Boom. Na mijn secundair heb ik besloten om iets
-          in de <b>ICT</b> te gaan doen.
-        </p>
-        <p>
-          Het eerste jaar hogeschool ben ik
-          <i>Interactief Multimedia Design</i> gaan studeren. Tijdens dat jaar
-          heb ik meer bijgeleerd over hoe je websites designed en ontwikkeld.
-          Dat jaar was niet zo goed afgelopen maar de motivatie was er nog
-          steeds.
-        </p>
-        <p>
-          Na dat jaar heb ik gekozen om nog een jaartje te gaan proberen in de
-          hoge school. Deze keer een moeilijkere richting, namelijk
-          <b>Informatica</b>. Hier heb ik dus een groter stuk gezien
-          van verschillende talen: 
-          <ul class="talen">
-            <li>Java </li>
-            <img src="./images/java.png" alt="java icon">
-            <li>HTML</li>
-            <img src="./images/html.png" alt="html icon">
-            <li>CSS</li>
-            <img src="./images/css.png" alt="css icon">
-            <li>Linux commands</li>
-            <img src="./images/linux.png" alt="linux icon">
-            <li>Rstudio</li>
-            <img src="./images/rlogo.png" alt="Rstudio logo">
-          </ul>
-        </p>
-        <p>
-          Na Toegepast Informatica heb ik besloten om een
-          <b>Se-n-Se</b> jaar te gaan doen om zo de motivatie
-          terug op te nemen.
-        </p>
+      <section id="video">
+        <video src="./media/pika.mp4" type="video/mp4" controls>
+          Uw browser heeft geen HTML5
+        </video>
       </section>
     </main>
-    <footer>
+    <footer>  
       <h3>Social media</h3>
       <ul class="footer">
-        <li><a href="https://www.facebook.com/vincent.dewilde.58"><img src="./images/facebook-icon.png" alt="facebook icon"></a></li>
-        <li><a href="https://www.google.be"><img src="./images/linkedin-icon.png" alt="linkedin icon"></a></li>
-        <li><a href="https://www.instagram.com/vincent_dewilde/"><img src="./images/instagram-icon.png" alt="instagram icon"></a></li>
-      </ul>    
+        <li>
+          <a href="https://www.facebook.com/vincent.dewilde.58"
+            ><img src="./images/facebook-icon.png" alt="facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.google.be"
+            ><img src="./images/linkedin-icon.png" alt="linkedin icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/vincent_dewilde/"
+            ><img src="./images/instagram-icon.png" alt="instagram icon"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
